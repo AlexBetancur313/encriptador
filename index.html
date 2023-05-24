@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+  <title>Encriptador Challenge</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>Encriptador de Texto</h1>
+  </header>
+  <main>
+
+    <section class="introduccion">
+      <p>
+        Bienvenidos a mi incriptador de texto realizado con HTML, CSS y Javascript en el curso de ONE ORACLE. <br>
+        Para poder usar correctamente la pagina, usar letras minusculas y sin acentos.
+      </p>
+    </section>
+
+    <section class="container-encriptador">
+
+      <article class="ingresar-texto">
+        <textarea name="myTextarea" id="myTextarea" placeholder="Ingrese un texto aqui" rows="10" cols="50"
+          resize="none"></textarea>
+
+        <div class="botones">
+          <input type="button" value="Encriptar" id="btnEncriptar">
+          <input type="button" value="Desencriptar" id="btnDesencritpar">
+        </div>
+      </article>
+
+
+      <article>
+        <div class="resultado">
+          <div class="imgSinResultado">
+            <img src="assets/Muñeco.png" alt="Buscando Mensaje Encriptado">
+          </div>
+          <div class="mensajeSinResultado">
+            <p>Ningún mensaje fue encontrado</p>
+            <p>Ingrese el mensaje de desea incriptar o desencriptar</p>
+          </div>
+        </div>
+        <div class="mensaje ocultar">
+          <h3>El mensaje es: </h3>
+
+          <textarea name="copyText" cols="30" rows="10" id="copyText" resize="none" readonly></textarea>
+
+          <button value="Copiar" id="btnCopiar">Copiar</button>
+        </div>
+      </article>
+    </section>
+
+
+
+
+
+
+
+  </main>
+  <footer>
+
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
