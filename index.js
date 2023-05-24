@@ -107,7 +107,9 @@ btnCopiar.addEventListener("click",()=>{
 })
 
 
-// Pendiente hacer para hacer la pagina responsive mejor
+// Pendiente hacer para hacer la pagina responsive mejor 
+
+// Pendiente realizar la documentación
 
 // window.addEventListener("resize",(e)=>{
 // console.clear(); // El clear no usamos para que cada vez que la resolucion cambie y el evento se ejecute, no quede todo en consola, entonces cuando cambia el evento anterior se borra y solo muestra el actual
